@@ -1,1 +1,1 @@
-## A site that displays current window width and height
+## A simple tool displays current window width and height
