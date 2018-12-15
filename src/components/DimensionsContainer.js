@@ -8,8 +8,6 @@ class DimensionsContainer extends React.Component {
   };
 
   componentDidMount() {
-    console.log(this.state.width);
-    console.log(this.state.height);
     window.addEventListener("resize", this.updateDimensions);
   }
 
@@ -22,6 +20,7 @@ class DimensionsContainer extends React.Component {
       width: window.innerWidth,
       height: window.innerHeight
     });
+
   render() {
     return (
       <DimensionsText width={this.state.width} height={this.state.height} />
