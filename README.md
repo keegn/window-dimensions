@@ -1,1 +1,1 @@
-## A simple tool displays current window width and height
+## A simple tool that displays current window width and height
