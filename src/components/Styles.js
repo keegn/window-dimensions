@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 // import styled from "styled-components";
 
-// Todo: refactor to styled componets for css class selectors
+// Todo: refactor to styled components for css class selectors
 export const GlobalStyle = createGlobalStyle`
 
 body {
