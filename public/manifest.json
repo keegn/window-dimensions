@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Widow Dimensions",
+  "name": "A simple tool that displays your browser's current window size",
   "icons": [
     {
       "src": "favicon.ico",
