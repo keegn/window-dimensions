@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const DimensionsText = props => (
   <>
     <h1>width: {props.width}px</h1>
