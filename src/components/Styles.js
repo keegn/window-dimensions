@@ -24,7 +24,7 @@ code {
 }
 
 .App-header {
-  background-color: #0A5055;
+  background-color: #0b0c1d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,5 +33,4 @@ code {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 `;
