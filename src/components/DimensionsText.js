@@ -9,9 +9,14 @@ const Text = styled.span`
     color: ${props => props.green ? '#7aedc6' : '#7eddfd' };
     display: block;
 `
+const StyledX = styled.div`
+    font-size: 32px;
+    color: white;
+`
 const DimensionsText = props => (
   <>
     <h1><Text green>width</Text>{props.width}px</h1>
+    <StyledX>𝕏</StyledX>
     <h1><Text>height</Text>{props.height}px</h1>
   </>
 );

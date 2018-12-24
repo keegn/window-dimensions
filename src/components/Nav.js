@@ -23,6 +23,7 @@ const NavText = styled.h1`
     }
 `
 
+
 const Nav = () => (
     <>
     <NavBar>
