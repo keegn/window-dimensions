@@ -17,13 +17,17 @@ const NavText = styled.h1`
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #f88893;
+    span {
+        padding: 8px;
+        display: none;
+    }
 `
 
 const Nav = () => (
     <>
     <NavBar>
         <NavContainer>
-            <NavText><span role="img" aria-label="ruler">📏</span>Window Dimensions <span role="img" aria-label="ruler">📏 </span></NavText>
+            <NavText><span role="img" aria-label="ruler">📏</span>Window Dimensions<span role="img" aria-label="ruler">📏</span></NavText>
         </NavContainer>
     </NavBar>
     </>
