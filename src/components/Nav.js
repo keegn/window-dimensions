@@ -10,6 +10,7 @@ const NavContainer = styled.div`
     justify-content: center;
     align-items: center;
     height: 80px;
+    margin-bottom: -80px;
 `
 const NavText = styled.h1`
     font-size: 14px;
