@@ -26,7 +26,7 @@ code {
 
 .App-header {
   background-color: #111;
-  min-height: calc(100vh);
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
