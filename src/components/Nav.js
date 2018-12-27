@@ -17,7 +17,7 @@ const NavText = styled.h1`
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #f88893;
+  color: white;
   span {
     padding: 8px;
     display: none;
