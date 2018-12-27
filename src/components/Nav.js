@@ -29,11 +29,11 @@ const Nav = () => (
     <NavBar>
       <NavContainer>
         <NavText>
-          <span role="img" aria-label="ruler">
+          <span role="img" aria-label="ruler-emoji">
             📏
           </span>
           Window Dimensions
-          <span role="img" aria-label="ruler">
+          <span role="img" aria-label="ruler-emoji">
             📏
           </span>
         </NavText>
