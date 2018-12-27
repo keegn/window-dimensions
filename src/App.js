@@ -2,6 +2,7 @@ import React from "react";
 import DimensionsContainer from "./components/DimensionsContainer";
 import Nav from "./components/Nav";
 import { GlobalStyle } from "./components/Styles";
+import { Spring } from 'react-spring'
 
 const App = () => (
   <>

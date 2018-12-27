@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Spring } from "react-spring";
 
 const NavBar = styled.div`
   background: #111;
@@ -32,7 +33,9 @@ const Nav = () => (
           <span role="img" aria-label="ruler-emoji">
             📏
           </span>
-          Window Dimensions
+          <Spring from={{ opacity: 0 }} to={{ opacity: 1 }}>
+            {props => <div style={props}>Window Dimensions</div>}
+          </Spring>
           <span role="img" aria-label="ruler-emoji">
             📏
           </span>
